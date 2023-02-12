@@ -1,0 +1,6 @@
+user\UserUpdateDataTest.class
+order\CreateOrderWithoutAuthTest.class
+user\UserCreateTest.class
+user\UserLoginTest.class
+order\GetUserOderTest.class
+order\CreateOrderWithAuthTest.class

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: order.CreateOrderWithoutAuthTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.069 s <<< FAILURE! - in order.CreateOrderWithoutAuthTest
+createOrderWithoutAuthAndWrongIngredients(order.CreateOrderWithoutAuthTest)  Time elapsed: 1.565 s  <<< FAILURE!
+java.lang.AssertionError: expected:<500> but was:<429>
+	at order.CreateOrderWithoutAuthTest.createOrderWithoutAuthAndWrongIngredients(CreateOrderWithoutAuthTest.java:55)
+
+createOrderWithoutAuthWithIngredients(order.CreateOrderWithoutAuthTest)  Time elapsed: 2.303 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<429>
+	at order.CreateOrderWithoutAuthTest.createOrderWithoutAuthWithIngredients(CreateOrderWithoutAuthTest.java:39)
+
